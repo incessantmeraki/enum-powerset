@@ -1,0 +1,26 @@
+{
+  "name": "enum-powerset",
+  "version": "1.0.0",
+  "description": "generates all possible subsets (powerset) of elements in a given array",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incessantmeraki/enum-powerset.git"
+  },
+  "keywords": [
+    "enumeration",
+    "powerset"
+  ],
+  "author": "Ashwin Kandel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/incessantmeraki/enum-powerset/issues"
+  },
+  "homepage": "https://github.com/incessantmeraki/enum-powerset#readme",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
