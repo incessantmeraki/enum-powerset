@@ -6,7 +6,7 @@ module.exports = function (arr) {
       if (i & (1 << j)) 
         result.push(arr[j]) 
     }
-    output.push(result.join())
+    output.push([].concat(result))
   }
   return output
 }
